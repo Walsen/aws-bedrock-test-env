@@ -1,0 +1,11 @@
+name: bedrock-roles
+description: A Pulumi program to setup roles to access Bedrock
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python

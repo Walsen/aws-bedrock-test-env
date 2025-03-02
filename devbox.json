@@ -13,7 +13,10 @@
     "pipenv@latest",
     "zellij@latest",
     "starship@latest",
-    "nushell@latest"
+    "nushell@latest",
+    "nodejs_22@latest",
+    "corepack_22@latest",
+    "pulumi-bin@latest"
   ],
   "shell": {
     "init_hook": [

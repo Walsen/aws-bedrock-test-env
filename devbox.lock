@@ -65,6 +65,54 @@
         }
       }
     },
+    "corepack_22@latest": {
+      "last_modified": "2025-01-19T08:16:51Z",
+      "resolved": "github:NixOS/nixpkgs/50165c4f7eb48ce82bd063e1fb8047a0f515f8ce#corepack_22",
+      "source": "devbox-search",
+      "version": "22.12.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8n75ydr46mng4msi66p20wz9wm56vkgq-corepack-nodejs-22.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8n75ydr46mng4msi66p20wz9wm56vkgq-corepack-nodejs-22.12.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pr8ji49rl468hb8qg2nryb1zawlspfpg-corepack-nodejs-22.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pr8ji49rl468hb8qg2nryb1zawlspfpg-corepack-nodejs-22.12.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g252pz7bxswyxfnm7m5m6knvmqimrq3b-corepack-nodejs-22.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g252pz7bxswyxfnm7m5m6knvmqimrq3b-corepack-nodejs-22.12.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zk31r2zxvbgwml3xzgp1m3845n5crnix-corepack-nodejs-22.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zk31r2zxvbgwml3xzgp1m3845n5crnix-corepack-nodejs-22.12.0"
+        }
+      }
+    },
     "direnv@latest": {
       "last_modified": "2024-12-23T21:10:33Z",
       "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#direnv",
@@ -160,6 +208,9 @@
           "store_path": "/nix/store/gicqc89lkcpinrjls3mz7b3p6bbjy99j-gh-2.65.0"
         }
       }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/199169a2135e6b864a888e89a2ace345703c025d?lastModified=1740791350&narHash=sha256-igS2Z4tVw5W%2Fx3lCZeeadt0vcU9fxtetZ%2FRyrqsCRQ0%3D"
     },
     "go-task@latest": {
       "last_modified": "2025-01-04T17:00:17Z",
@@ -409,6 +460,71 @@
         }
       }
     },
+    "nodejs_22@latest": {
+      "last_modified": "2025-01-19T08:16:51Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/50165c4f7eb48ce82bd063e1fb8047a0f515f8ce#nodejs_22",
+      "source": "devbox-search",
+      "version": "22.12.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ygk01vha6k5zxgn9rsxi3k6cm2kbnwsc-nodejs-22.12.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/hvpmcjbmsyknlpjjd7a8na891fv4a81i-nodejs-22.12.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/ygk01vha6k5zxgn9rsxi3k6cm2kbnwsc-nodejs-22.12.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jdgrvyf5l99rzjayicxjw7i6p98r0rlb-nodejs-22.12.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/48is8354i9qwj194id0ncczkvzvfqhim-nodejs-22.12.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/jdgrvyf5l99rzjayicxjw7i6p98r0rlb-nodejs-22.12.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6fnlali5gqihxs02adk1bdzjsya9cacp-nodejs-22.12.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/gvys8kz8pdw62ch2x7k25rrmcw3mqnrw-nodejs-22.12.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/6fnlali5gqihxs02adk1bdzjsya9cacp-nodejs-22.12.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k1r91cjalyc2mzzllpv5hklhqn8wvgjr-nodejs-22.12.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/n7x07hrc6sjhh6as6c75g15blq1c1ykh-nodejs-22.12.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/k1r91cjalyc2mzzllpv5hklhqn8wvgjr-nodejs-22.12.0"
+        }
+      }
+    },
     "nushell@latest": {
       "last_modified": "2024-12-26T01:25:00Z",
       "resolved": "github:NixOS/nixpkgs/16e046229f3b4f53257973a5532bcbb72457d2f2#nushell",
@@ -518,6 +634,54 @@
             }
           ],
           "store_path": "/nix/store/bzlaf4ph0n05ym5xp48iqdg68vlasfvv-pipenv-2024.2.0"
+        }
+      }
+    },
+    "pulumi-bin@latest": {
+      "last_modified": "2025-02-26T05:29:08Z",
+      "resolved": "github:NixOS/nixpkgs/3a05eebede89661660945da1f151959900903b6a#pulumi-bin",
+      "source": "devbox-search",
+      "version": "3.152.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k3n1lb9irn2rdlr5lbl3vwr0pv1zia65-pulumi-3.152.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/k3n1lb9irn2rdlr5lbl3vwr0pv1zia65-pulumi-3.152.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rx37xfdyhiqadgps73dpgxb6g5nqdjrf-pulumi-3.152.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rx37xfdyhiqadgps73dpgxb6g5nqdjrf-pulumi-3.152.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ln4nv9m6w06myl3ha5az9rgl49v9ngdm-pulumi-3.152.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ln4nv9m6w06myl3ha5az9rgl49v9ngdm-pulumi-3.152.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/36z1jmwb85l628xr254zh430jfxvsjwg-pulumi-3.152.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/36z1jmwb85l628xr254zh430jfxvsjwg-pulumi-3.152.0"
         }
       }
     },
