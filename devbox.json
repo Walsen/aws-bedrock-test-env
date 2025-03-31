@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
+  "packages": {
+    "just":     {"version": "latest"},
+    "starship": {"version": "latest"},
+    "direnv":   {"version": "latest"},
+    "awscli2":  {"version": "latest"},
+    "python": {
+      "version":        "3.12",
+      "disable_plugin": false
+    },
+    "pulumi-bin":                        "latest",
+    "pulumiPackages.pulumi-command":     "latest",
+    "pulumiPackages.pulumi-hcloud":      "latest",
+    "pulumiPackages.pulumi-random":      "latest",
+    "pulumiPackages.pulumi-aws-native":  "latest",
+    "pulumiPackages.pulumi-language-go": "latest",
+    "zellij":                            "latest",
+    "uv":                                "latest",
+    "git":                               "latest"
+  },
+  "env": {
+    "PULUMI_SKIP_UPDATE_CHECK": "true",
+    "AWS_PROFILE":              "Walsen"
+  },
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
